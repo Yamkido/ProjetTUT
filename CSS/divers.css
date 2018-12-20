@@ -93,6 +93,15 @@ a{
 	text-align: center;
 }
 
+#bandeau-premium-img{
+    padding-top: 45px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .boutons {
     background-color: #77B5FE;
     border: none;
