@@ -1,0 +1,240 @@
+/*///////////////////////////////////////////////////////////HEADER//////////////////////////////////////////////////////////*/
+
+header{
+    height: 50px;
+    background-color: rgb(34,34,34);
+    position: fixed;
+    border-top: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.icone-header-img{
+    width: 35px;
+    padding-right: 20px;
+    padding-top: 4px;
+}
+
+#icone-fleche {
+    image-orientation: -90deg;
+    width: 35px;
+    padding-right: 20px;
+    padding-top: 4px;
+}
+
+
+.bouton {
+    background-color: #77B5FE;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+/*///////////////////////////////////////////////////////////////////////////FOOTER///////////////////////////////////////////////////////////////////////*/
+
+footer{
+    height: 60px;
+    background-color: rgb(34,34,34);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-bottom: 0;
+    z-index: 1;
+}
+
+#twit-log {
+    height: 60px;
+    width: auto;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+#face-log {
+    height: 60px;
+    width: auto;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+#yout-log {
+    height: 60px;
+    width: auto;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+#for-log {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    right: 0;
+}
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////BODY////////////////////////////////////////////////*/
+
+body{
+    background-color: rgb(255,255,255);
+}
+
+a{
+    font-family: 'Poiret One';
+}
+
+h1{
+    text-align: left;
+    color: #77B5FE;
+    font-size: 55px;
+    font-family: 'Poiret One';
+}
+
+.h1-prem {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Poiret One';
+}
+
+h3{
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Poiret One';
+}
+
+h4{
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Raleway';
+}
+
+img {
+    width: 374px;
+}
+
+
+.acc-slide-b {
+    width: auto;
+    text-align: center;
+    color: #77B5FE;
+    font-size: 55px;
+    font-family: 'Poiret One';
+    position: absolute;
+    left: 17%;
+}
+
+.acc-slide-g {
+    width: auto;
+    text-align: center;
+    color: #77B5FE;
+    font-size: 55px;
+    font-family: 'Poiret One';
+    position: absolute;
+    right: 17%;
+}
+
+
+
+/*/////////////////////////////////////////////////////////BARRES VERTICALES/////////////////////////////////////////////////////////*/
+
+.style1{
+    border-top: 1px solid #77B5FE;
+    width:45%;
+    margin-left:0;
+}
+
+.style2{
+    border-top: 1px solid #77B5FE;
+    width:25%;
+    text-align: center;
+}
+
+
+/*/////////////////////////////////////////////////////////BOUTON/////////////////////////////////////////////////////////*/
+
+.boutons {
+    background-color: #77B5FE;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.bouton-connexion{
+    text-align: center;
+}
+
+
+/*////////////////////////////////////////////////////////////////////SLIDER/////////////////////////////////////////////////////*/
+
+.slider {
+    width: 374px;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 50px auto;
+    background-color: white;
+}
+
+.slides {
+    width: calc(374px * 3);
+    animation: glissement 15s infinite;
+    animation-timing-function: cubic-bezier(0,1.15,0,.99);
+}
+
+.slide {
+    float: left;
+}
+
+@keyframes glissement {
+    0% {
+        transform: translateX(0);
+    }
+    5% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-374px);
+    }
+    38% {
+        transform: translateX(-374px);
+    }
+    43% {
+        transform: translateX(-374px);
+    }
+    66% {
+        transform: translateX(-748px);
+    }
+    71% {
+        transform: translateX(-748px);
+    }
+    76% {
+        transform: translateX(-748px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

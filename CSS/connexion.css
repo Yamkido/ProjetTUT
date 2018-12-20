@@ -1,0 +1,113 @@
+/*//////////////////////////////////////////////////////////////////////////////HEADER////////////////////////////////////////////////*/
+
+header{
+    height: 50px;
+    width: 100%; 
+    background-color: rgb(34,34,34);
+    position: fixed;
+    border-top: 0;
+    left: 0;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+#icone-fleche {
+    image-orientation: -90deg;
+    width: 35px;
+    padding-right: 20px;
+    padding-top: 4px;
+}
+
+.icone-header-img{
+    width: 35px;
+    padding-right: 20px;
+    padding-top: 4px;
+}
+
+#for-log {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    right: 0;
+}
+
+/*///////////////////////////////////////////////////////////////////////////FOOTER///////////////////////////////////////////////////////////////////////*/
+
+footer{
+    height: 60px;
+    background-color: rgb(34,34,34);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-bottom: 0;
+    z-index: 1;
+}
+
+#twit-log {
+    width: 156px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+#face-log {
+    width: 162px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+#yout-log {
+    width: 150px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////	BODY////////////////////////////////////////////////*/
+
+body{
+    background-color: rgb(255,255,255);
+}
+
+label{
+	font-family: 'Poiret One'
+}
+
+a{
+	font-family: 'Poiret One'
+}
+.h1-co {
+	text-align: center;
+	color: #77B5FE;
+	font-size: 50px;
+	font-family: 'Poiret One';
+}
+
+#style1{
+	border-top: 1px solid #77B5FE;
+	width:65%;
+}
+
+.formulaire{
+	text-align: center;
+}
+
+.boutons {
+    background-color: #77B5FE;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.bouton-connexion{
+	text-align: center;
+}
+
+fieldset {
+	width: 200px;
+	margin: auto;
+}

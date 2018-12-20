@@ -1,0 +1,172 @@
+/*//////////////////////////////////////////////////////////////HEADER////////////////////////////////////////////////////////////////*/
+
+header{
+	height: 140px;
+	background-color: rgb(34,34,34);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	text-align: center;
+	z-index: 1;
+}
+
+.bouton {
+	background-color: #77B5FE;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+#logo {
+	width: 130px;
+}
+
+
+/*//////////////////////////////////////////////////////////////FOOTER////////////////////////////////////////////////////////////////*/
+
+footer{
+	height: 60px;
+	background-color: rgb(34,34,34);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	border-bottom: 0;
+	z-index: 1;
+}
+
+#twit-log {
+	height: 60px;
+	width: auto;
+	padding-right: 20px;
+	padding-bottom: 4px;
+}
+
+#face-log {
+	height: 60px;
+	width: auto;
+	padding-right: 20px;
+	padding-bottom: 4px;
+}
+
+#yout-log {
+	height: 60px;
+	width: auto;
+	padding-right: 20px;
+	padding-bottom: 4px;
+}
+
+#for-log {
+	height: 60px;
+	width: auto;
+	position: absolute;
+	right: 4%;
+}
+
+.mentions-legales {
+	position: absolute;
+	left: 4%;
+	top: 23%;
+	color: white;
+}
+
+.mentions-legales:hover {
+	color: #77B5FE;
+}
+
+/*//////////////////////////////////////////////////////////////BODY////////////////////////////////////////////////////////////////*/
+
+body{
+	background-color: rgb(255,255,255);
+}
+
+
+a{
+	font-family: 'Poiret One'
+}
+
+h1{
+	text-align: center;
+	color: #77B5FE;
+	font-size: 50px;
+	font-family: 'Poiret One'
+}
+
+h3{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.lien {
+	text-align: center;
+	padding-top:10px;
+}
+
+.img-produit {
+	width: 90%;
+}
+
+content {
+	margin:0px;
+	padding:0px;
+}
+
+hr{
+	border-top: 1px solid #77B5FE;
+	width:65%;
+}
+
+iframe {
+	width: 100%;
+	height: 1200px;
+}
+
+#createur-photo{
+	text-align: center;
+}
+
+.photo-createur-img{
+	width: 20%;
+}
+
+.embedresize {
+	max-width: 1920px;
+	margin: auto;
+}
+
+.embedresize div {
+	position: relative;
+	height: 0;
+	padding-bottom: 56.25%;
+}
+
+.embedresize iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.intro #intro .embedresize iframe,
+.exit .quizz .embedresize iframe,
+.alreadyplayed #intro .embedresize iframe, 
+.identityset #intro .embedresize iframe, 
+#notabene .embedresize iframe, 
+#message-intro .embedresize iframe, 
+.fancybox-body .embedresize iframe, 
+#comments .embedresize iframe, 
+#description .embedresize iframe, 
+.alreadyplayed .embedresize iframe, 
+#adserver .embedresize iframe {
+	max-width: none !important;
+}
