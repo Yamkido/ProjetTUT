@@ -165,4 +165,6 @@ fieldset {
 	width: 200px;
 	margin: auto;
 }
-
+label{
+	font-family: 'Poiret One'
+}
