@@ -160,3 +160,9 @@ h3{
 .bouton-connexion{
     text-align: center;
 }
+
+fieldset {
+	width: 200px;
+	margin: auto;
+}
+
