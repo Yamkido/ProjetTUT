@@ -55,19 +55,22 @@ footer{
 }
 
 #twit-log {
-    width: 156px;
+    height: 60px;
+    width: auto;
     padding-right: 20px;
     padding-bottom: 4px;
 }
 
 #face-log {
-    width: 162px;
+    height: 60px;
+    width: auto;
     padding-right: 20px;
     padding-bottom: 4px;
 }
 
 #yout-log {
-    width: 150px;
+    height: 60px;
+    width: auto;
     padding-right: 20px;
     padding-bottom: 4px;
 }

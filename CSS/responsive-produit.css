@@ -151,13 +151,13 @@
         left: 0;
         top: 0;
         text-align: center;
-        z-index: 2;
     }
 
     .icone-header-img{
         width: 38px;
         padding-top: 27px;
         padding-left: 15px;
+        margin-top: -5px;
     }
 
     #icone-fleche {
@@ -165,6 +165,7 @@
         padding-top: 27px;
         transform: rotate(-90deg);
         margin-left: -30px;
+        margin-top: -5px;
     }
 
     .bouton {
@@ -207,10 +208,9 @@
 
     #bandeau-premium-img{
         position: absolute;
-        width: 104%;
+        width: 108%;
         top: -53px;
-        left: -13px;
-        right: 0;
+        left: -28px;
     }
 
 
