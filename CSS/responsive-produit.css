@@ -263,7 +263,7 @@
     }
     /* Supprime les <br> sur les portables et petits écrans */
 
-    br {
+    .br-phone {
         display: none;
     }
 
