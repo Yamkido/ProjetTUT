@@ -1,5 +1,20 @@
 @media screen and (max-width: 1200px) {
 
+    .icone-header-img{
+        width: 35px;
+        padding-right: 20px;
+        padding-top: 4px;
+        margin-left: -10px;
+    }
+
+    #icone-fleche {
+        image-orientation: -90deg;
+        width: 35px;
+        padding-right: 20px;
+        padding-top: 4px;
+        margin-left: -10px;
+    }
+
     /* Police de caractère */
 
     h1{
@@ -129,7 +144,7 @@
 
     header{
         height: 100%;
-        width: 70px; 
+        width: 50px; 
         background-color: rgb(34,34,34);
         position: fixed;
         border-top: 0;
@@ -140,13 +155,13 @@
     }
 
     .icone-header-img{
-        width: 58px;
+        width: 38px;
         padding-top: 27px;
-        padding-left: 7px;
+        padding-left: 15px;
     }
 
     #icone-fleche {
-        width: 58px;
+        width: 40px;
         padding-top: 27px;
         transform: rotate(-90deg);
         margin-left: -30px;
@@ -186,13 +201,6 @@
         height: 40px;
         width: auto;
         padding-right: 5px;
-    }
-
-    #for-log {
-        height: 40px;
-        width: auto;
-        position: absolute;
-        right: 0;
     }
 
     /* Bandeau de la page premium */
