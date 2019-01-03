@@ -68,11 +68,22 @@ footer{
     padding-bottom: 4px;
 }
 
-#yout-log {
+#forum-log {
     height: 60px;
     width: auto;
     padding-right: 20px;
     padding-bottom: 4px;
+}
+
+.mentions-legales {
+    position: absolute;
+    left: 4%;
+    top: 10%;
+    color: white;
+}
+
+.mentions-legales:hover {
+    color: #77B5FE;
 }
 
 
@@ -91,10 +102,6 @@ h1{
     color: #77B5FE;
     font-size: 55px;
     font-family: 'Poiret One';
-}
-
-.h1-prem {
-    text-align: center;
 }
 
 h2{

@@ -68,11 +68,22 @@ footer{
     padding-bottom: 4px;
 }
 
-#yout-log {
+#forum-log {
     height: 60px;
     width: auto;
     padding-right: 20px;
     padding-bottom: 4px;
+}
+
+.mentions-legales {
+    position: absolute;
+    left: 4%;
+    top: 10%;
+    color: white;
+}
+
+.mentions-legales:hover {
+    color: #77B5FE;
 }
 
 /*//////////////////////////////// BODY///////////////////////////////////////////*/
@@ -82,31 +93,43 @@ body{
 }
 
 label{
-    font-family: 'Poiret One'
+    font-family: 'Poiret One';
 }
 
 a{
-    font-family: 'Poiret One'
+    font-family: 'Poiret One';
 }
 
 h1{
     font-size: 500%;
     text-align: center;
     color: #77B5FE;
-    font-family: 'Poiret One'
+    font-family: 'Poiret One';
 }
+
+.h1-forum {
+    text-align: left;
+}
+
 h2{
     font-size: 175%;
     text-align: center;
     color: #000000;
-    font-family: 'Poiret One'
+    font-family: 'Poiret One';
 }
 
 h3{
     font-size: 175%;
     text-align: center;
     color: #000000;
-    font-family: 'Raleway'
+    font-family: 'Raleway';
+}
+
+h4 {
+    font-size: 125%;
+    text-align: left;
+    color: #000000;
+    font-family: 'Raleway';
 }
 
 .h1-co {
