@@ -57,7 +57,7 @@
 		height: 40px;
 		width: auto;
 		padding-right: 5px;
-		margin-left: 32%;
+		margin-left: 70px;
 	}
 
 	#face-log {
@@ -82,5 +82,8 @@
 		font-size: 20px;
 		font-family: 'Poiret One'
 	}
-
+	
+	.br-phone {
+		display: none;
+	}
 }
