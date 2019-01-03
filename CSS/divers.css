@@ -139,6 +139,12 @@ fieldset {
     margin: auto;
 }
 
+textarea {
+    resize: none;
+    width: 80%;
+    margin: auto;
+}
+
 .style1{
     border-top: 1px solid #77B5FE;
     width:65%;
