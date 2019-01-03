@@ -116,7 +116,7 @@ h3{
     font-family: 'Poiret One';
 }
 
-.formulaire{
+.formulaire {
     text-align: center;
 }
 
@@ -130,7 +130,7 @@ h3{
     display: inline-block;
     font-size: 16px;
 }
-.bouton-connexion{
+.bouton-connexion {
     text-align: center;
 }
 
@@ -149,16 +149,16 @@ textarea {
     border-top: 1px solid #77B5FE;
     width:65%;
 }
-.style2{
+.style2 {
     border-top: 1px solid #77B5FE;
     width:15%;
 }
 
-#amazon-logo{
+#amazon-logo {
     text-align: center;
 }
 
-#amazon-img{
+#amazon-img {
     width: 17%;
 }
 
@@ -169,4 +169,15 @@ textarea {
     top: 0;
     left: 0;
     right: 0;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img-contact {
+    height: 100px;
+    width: auto;
 }
