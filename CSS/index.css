@@ -108,20 +108,12 @@ h3{
 	width: 45%;
 }
 
-content {
-	margin:0px;
-	padding:0px;
-}
 
 hr{
 	border-top: 1px solid #77B5FE;
 	width:65%;
 }
 
-iframe {
-	width: 100%;
-	height: 1200px;
-}
 
 #createur-photo{
 	text-align: center;
@@ -131,35 +123,8 @@ iframe {
 	width: 20%;
 }
 
-.embedresize {
-	max-width: 1920px;
-	margin: auto;
-}
 
-.embedresize div {
-	position: relative;
-	height: 0;
-	padding-bottom: 56.25%;
-}
-
-.embedresize iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
+.conteneur iframe {
 	width: 100%;
 	height: 100%;
-}
-
-.intro #intro .embedresize iframe,
-.exit .quizz .embedresize iframe,
-.alreadyplayed #intro .embedresize iframe, 
-.identityset #intro .embedresize iframe, 
-#notabene .embedresize iframe, 
-#message-intro .embedresize iframe, 
-.fancybox-body .embedresize iframe, 
-#comments .embedresize iframe, 
-#description .embedresize iframe, 
-.alreadyplayed .embedresize iframe, 
-#adserver .embedresize iframe {
-	max-width: none !important;
 }
