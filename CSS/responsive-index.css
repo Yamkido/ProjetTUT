@@ -21,6 +21,13 @@
 		font-size: 30px;
 		font-family: 'Poiret One';
 	}
+
+	h2{
+	    text-align: center;
+	    color: #77B5FE;
+	    font-size: 40px;
+	    font-family: 'Poiret One';
+	}
 }
 
 
@@ -81,6 +88,13 @@
 		color: #77B5FE;
 		font-size: 20px;
 		font-family: 'Poiret One';
+	}
+
+	h2{
+    	text-align: center;
+	    color: #77B5FE;
+	    font-size: 40px;
+	    font-family: 'Poiret One';
 	}
 	
 	.br-phone {

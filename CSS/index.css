@@ -94,9 +94,11 @@ h1{
 	font-family: 'Poiret One';
 }
 
-h3{
-	text-align: center;
-	color: #FFFFFF;
+h2{
+    text-align: center;
+    color: #77B5FE;
+    font-size: 40px;
+    font-family: 'Poiret One';
 }
 
 .lien {
