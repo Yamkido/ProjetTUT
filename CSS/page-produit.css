@@ -104,6 +104,10 @@ h1{
     font-family: 'Poiret One';
 }
 
+.h1-acc {
+    text-align: center;
+}
+
 h2{
     text-align: center;
     color: #000000;
