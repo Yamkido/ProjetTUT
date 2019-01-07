@@ -88,6 +88,8 @@ footer{
 
 /*//////////////////////////////// BODY///////////////////////////////////////////*/
 
+/*Police*/
+
 body{
     background-color: rgb(255,255,255);
 }
@@ -139,9 +141,7 @@ h4 {
     font-family: 'Poiret One';
 }
 
-.formulaire {
-    text-align: center;
-}
+/*Bouton*/
 
 .boutons {
     background-color: #77B5FE;
@@ -157,6 +157,8 @@ h4 {
     text-align: center;
 }
 
+/*Formulaire*/
+
 fieldset {
     width: 200px;
     margin: auto;
@@ -168,6 +170,12 @@ textarea {
     margin: auto;
 }
 
+.formulaire {
+    text-align: center;
+}
+
+/*Barre verticale*/
+
 .style1{
     border-top: 1px solid #77B5FE;
     width:65%;
@@ -176,6 +184,8 @@ textarea {
     border-top: 1px solid #77B5FE;
     width:15%;
 }
+
+/*Image*/
 
 #amazon-logo {
     text-align: center;
@@ -194,13 +204,15 @@ textarea {
     right: 0;
 }
 
+.img-contact {
+    height: 100px;
+    width: auto;
+}
+
+/*Tableau*/
+
 .table {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-.img-contact {
-    height: 100px;
-    width: auto;
 }

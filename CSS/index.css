@@ -82,6 +82,7 @@ body{
 	background-color: rgb(255,255,255);
 }
 
+/*Police*/
 
 a{
 	font-family: 'Poiret One';
@@ -101,21 +102,9 @@ h2{
     font-family: 'Poiret One';
 }
 
-.lien {
-	text-align: center;
-	padding-top:10px;
-}
-
 .img-produit {
 	width: 45%;
 }
-
-
-hr{
-	border-top: 1px solid #77B5FE;
-	width:65%;
-}
-
 
 #createur-photo{
 	text-align: center;
@@ -125,6 +114,19 @@ hr{
 	width: 20%;
 }
 
+.lien {
+	text-align: center;
+	padding-top:10px;
+}
+
+/*Barre verticale*/
+
+hr{
+	border-top: 1px solid #77B5FE;
+	width:65%;
+}
+
+/*Vidéo*/
 
 .conteneur iframe {
 	width: 100%;

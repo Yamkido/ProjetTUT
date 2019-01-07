@@ -1,5 +1,7 @@
 @media screen and (max-width: 1000px) {
 
+	/*///////////////////////////////////////////////////////////HEADER//////////////////////////////////////////////////////////*/
+
 	header{
 		height: 100px;
 		background-color: rgb(34,34,34);
@@ -23,15 +25,17 @@
 	}
 
 	h2{
-	    text-align: center;
-	    color: #77B5FE;
-	    font-size: 40px;
-	    font-family: 'Poiret One';
+		text-align: center;
+		color: #77B5FE;
+		font-size: 40px;
+		font-family: 'Poiret One';
 	}
 }
 
 
 @media screen and (max-width: 700px) {
+
+	/*///////////////////////////////////////////////////////////HEADER//////////////////////////////////////////////////////////*/
 
 	header{ 
 		height: 80px;
@@ -47,6 +51,8 @@
 	#logo {
 		width: 80px;
 	}
+
+	/*///////////////////////////////////////////////////////////FOOTER//////////////////////////////////////////////////////////*/
 
 	footer {
 		height: 40px;
@@ -83,6 +89,8 @@
 		width: 100%;
 	}
 
+	/*Police*/
+
 	h1{
 		text-align: center;
 		color: #77B5FE;
@@ -91,11 +99,13 @@
 	}
 
 	h2{
-    	text-align: center;
-	    color: #77B5FE;
-	    font-size: 40px;
-	    font-family: 'Poiret One';
+		text-align: center;
+		color: #77B5FE;
+		font-size: 40px;
+		font-family: 'Poiret One';
 	}
+
+	/*Saut de ligne sur portable*/
 	
 	.br-phone {
 		display: none;
