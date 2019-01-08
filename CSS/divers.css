@@ -1,6 +1,13 @@
 /*/////////////////////////////////////HEADER////////////////////////////////////////////////*/
 
-header{
+
+/***************************************
+Le header prend toute la largeur et fait 50 pixel d'épaisseur.
+Sa position reste fixe et suit l'écran quand on scrolle.
+Les éléments 
+*/
+
+header {
     height: 50px;
     width: 100%; 
     background-color: rgb(34,34,34);
