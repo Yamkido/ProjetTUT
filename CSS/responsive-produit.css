@@ -183,6 +183,7 @@
 
     footer {
         height: 40px;
+        width: 100%;
         background-color: rgb(34,34,34);
         position: fixed;
         bottom: 0;
