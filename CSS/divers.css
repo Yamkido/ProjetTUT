@@ -122,8 +122,19 @@ h1{
     font-family: 'Poiret One';
 }
 
+#h1-prem {
+    padding-top: 24%;
+}
+
 .h1-forum {
     text-align: left;
+}
+
+.h1-co {
+    text-align: center;
+    color: #77B5FE;
+    font-size: 50px;
+    font-family: 'Poiret One';
 }
 
 h2{
@@ -145,13 +156,6 @@ h4 {
     text-align: left;
     color: #000000;
     font-family: 'Raleway';
-}
-
-.h1-co {
-    text-align: center;
-    color: #77B5FE;
-    font-size: 50px;
-    font-family: 'Poiret One';
 }
 
 table {

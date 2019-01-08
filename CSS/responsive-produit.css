@@ -242,6 +242,9 @@
         font-family: 'Poiret One';
     }
 
+    .h1-acc {
+        padding-top: 2px;
+    }
     .h1-co {
         text-align: center;
         color: #77B5FE;
@@ -303,9 +306,9 @@
         font-size: 55px;
         font-family: 'Poiret One';
         position: relative;
-        left: 10%;
+        left: 9%;
         padding-top: -10px;
-        top: -50px;
+        top: -30px;
     }
 
     .acc-slide-g {
@@ -314,7 +317,7 @@
         font-size: 55px;
         font-family: 'Poiret One';
         position: relative;
-        left: 10%;
+        left: 9%;
         top: -50px;
     }
 
