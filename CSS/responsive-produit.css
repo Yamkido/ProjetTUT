@@ -149,7 +149,13 @@
 
     /*///////////////////////////////////////////////////////////HEADER//////////////////////////////////////////////////////////*/
 
-    header{
+    /*************************************************************************************************
+    Le header prend toute la hauteur et fait 50 pixel de largeur.
+    Sa position reste fixe sur les autres éléments hormis le footer et suit l'écran quand on scrolle.
+    Les éléments contenus sont centré hormis les boutons.
+    **************************************************************************************************/
+
+    header {
         height: 100%;
         width: 50px; 
         background-color: rgb(34,34,34);
@@ -181,6 +187,12 @@
 
     /*///////////////////////////////////////////////////////////FOOTER///////////////////////////////////////////////////////////*/
 
+    /*******************************************************************************
+    Le footer prend toute la largeur et fait 40 pixel d'épaisseur.
+    Sa position reste fixe sur les autres éléments et suit l'écran quand on scrolle.
+    Les éléments contenus sont centré hormis les mentions légales.
+    ********************************************************************************/
+
     footer {
         height: 40px;
         width: 100%;
@@ -191,7 +203,7 @@
         right: 0;
         text-align: center;
         border-bottom: 0;
-        z-index: 2;
+        z-index: 1;
     }
 
     #twit-log {

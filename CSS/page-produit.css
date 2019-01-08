@@ -1,5 +1,11 @@
 /*///////////////////////////////////////////////////////////HEADER//////////////////////////////////////////////////////////*/
 
+/*******************************************************************************
+Le header prend toute la largeur et fait 50 pixel d'épaisseur.
+Sa position reste fixe sur les autres éléments et suit l'écran quand on scrolle.
+Les éléments contenus sont centré hormis les boutons.
+********************************************************************************/
+
 header{
     height: 50px;
     background-color: rgb(34,34,34);
@@ -41,6 +47,12 @@ header{
 }
 
 /*///////////////////////////////////////////////////////////////////////////FOOTER///////////////////////////////////////////////////////////////////////*/
+
+/*******************************************************************************
+Le footer prend toute la largeur et fait 60 pixel d'épaisseur.
+Sa position reste fixe sur les autres éléments et suit l'écran quand on scrolle.
+Les éléments contenus sont centré hormis les mentions légales.
+********************************************************************************/
 
 footer{
     height: 60px;
@@ -108,6 +120,7 @@ h1{
 
 .h1-acc {
     text-align: center;
+    padding-top: 7px;
 }
 
 h2{
@@ -135,7 +148,10 @@ img {
     width: 374px;
 }
 
-/*Paramètres page acceuil*/
+/*****************************************
+Paramètres page acceuil
+Police identique aux <h1>
+******************************************/
 
 .acc-slide-b {
     width: auto;
@@ -145,6 +161,7 @@ img {
     font-family: 'Poiret One';
     position: absolute;
     left: 17%;
+    top: 8%;
 }
 
 .acc-slide-g {
@@ -155,6 +172,7 @@ img {
     font-family: 'Poiret One';
     position: absolute;
     right: 17%;
+    top: 8%;
 }
 
 

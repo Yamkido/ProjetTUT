@@ -37,7 +37,13 @@
 
 	/*///////////////////////////////////////////////////////////HEADER//////////////////////////////////////////////////////////*/
 
-	header{ 
+	/*******************************************************************************
+	Le header prend toute la largeur et fait 80 pixels d'épaisseur.
+	Sa position reste fixe sur les autres éléments et suit l'écran quand on scrolle.
+	Les éléments contenus sont centré hormis les boutons.
+	********************************************************************************/
+
+	header { 
 		height: 80px;
 		background-color: rgb(34,34,34);
 		position: absolute;
@@ -53,6 +59,12 @@
 	}
 
 	/*///////////////////////////////////////////////////////////FOOTER//////////////////////////////////////////////////////////*/
+
+	/*******************************************************************************
+	Le footer prend toute la largeur et fait 40 pixel d'épaisseur.
+	Sa position reste fixe sur les autres éléments et suit l'écran quand on scrolle.
+	Les éléments contenus sont centré hormis les mentions légales.
+	********************************************************************************/
 
 	footer {
 		height: 40px;
