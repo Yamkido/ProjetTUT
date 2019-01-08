@@ -305,6 +305,14 @@
         top: -50px;
     }
 
+    /* Paramètre page validation */
+
+    .tabvalidation {
+        margin-left: 12%;
+        margin-right:auto;
+        border-collapse: collapse;
+    }
+
     /*Slider*/
 
     .slider {
