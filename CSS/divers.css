@@ -154,6 +154,19 @@ h4 {
     font-family: 'Poiret One';
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    font-size: 150%;
+    text-align: center;
+    color: #000000;
+    font-family: 'Poiret One';
+
+}
+
 /*Bouton*/
 
 .boutons {
@@ -211,7 +224,7 @@ textarea {
     width: 17%;
 }
 
-#bandeau-premium-img{
+#bandeau-premium-img {
     padding-top: 45px;
     position: absolute;
     width: 100%;
@@ -223,6 +236,14 @@ textarea {
 .img-contact {
     height: 100px;
     width: auto;
+}
+
+#a-mention {
+    text-align: center;
+}
+
+#img-mention {
+    width: 15%;
 }
 
 /*Tableau*/
