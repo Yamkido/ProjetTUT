@@ -279,11 +279,11 @@ li {
     font-family: 'Poiret One';
 }
 
-.allok:hover {
+.valid-w3c:hover {
     background-color: #00FF7F;
 }
 
-.notallok:hover {
+.valid-alize:hover {
     background-color: #F4A460;
 }
 
